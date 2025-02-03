@@ -16,3 +16,4 @@ Any kind of contribution is welcome! (please fix my bad code)
 - [ ] Big ol' ugly switch-case that is responsible for the characters
 - [ ] Output is in ALL CAPS (seriously, until this is fixed I'd only use this if ur friends are fine with you screaming at them)
 - [ ] `ы`, `ь` and `ъ` don't work as expected :P
+- [ ] I forgor to add the `щ` 💀
