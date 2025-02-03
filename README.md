@@ -1,19 +1,18 @@
-# Latoru
-Latoru is a tool that helps Russian learners type Russian using the Latin alphabet while the program replaces it with Cyrillic characters.
+<h1 align=center>Latoru</h1>
+<p align=center>Latoru is a tool that helps Russian learners type Russian using the Latin alphabet while the program replaces it with Cyrillic characters.</p>
 
-# Plan
-
-Make it work on windows then write a LKM for Linux (bc I can't really hook the keyboard on there properly)
-
-# How it Works
+## How it Works
 
 We set a low level hook on the keyboard, and evaluate which buttons were 
 pressed. If combinations such as "sh", "ye", "yu", "yo", "ya" were pressed, 
-we delete the last character and replace it with the corresponding character.
+we use the "y" as a modifier and send out the correct character.
 
-|  Latin  | Cyrillic  |
-| ------- | --------- |
-|  a      | PLCHLDR   |
-|  b      | PLCHLDR   |
-|  v      | PLCHLDR   |
-|  g      | PLCHLDR   |
+## Contributing
+
+Any kind of contribution is welcome! (please fix my bad code)
+
+## Issues
+
+- [ ] Big ol' ugly switch-case that is responsible for the characters
+- [ ] Output is in ALL CAPS (seriously, until this is fixed I'd only use this if ur friends are fine with you screaming at them)
+- [ ] `ы`, `ь` and `ъ` don't work as expected :P
