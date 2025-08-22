@@ -11,8 +11,3 @@ we use the "y" as a modifier and send out the correct character.
 
 Any kind of contribution is welcome! (please fix my bad code)
 
-## Issues
-
-- [ ] Big ol' ugly switch-case that is responsible for the characters
-- [ ] `ы`, `ь` and `ъ` don't work as expected :P
-- [ ] I forgor to add the `щ` 💀
